@@ -23,7 +23,7 @@
 	}
 
 	a {
-		color: #4dac71;
+		color: #ffcc00;
 		text-decoration: underline;
 	}
 
@@ -52,7 +52,6 @@
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
 			text-decoration: none;
 		}
 
@@ -462,8 +461,8 @@
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
-			top: 0.25em;
+			/*padding: 0 1.5em 1em 0;
+			top: 0.25em;*/
 		}
 
 		.image.right {
@@ -471,9 +470,14 @@
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
+		.image.center{
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 20%;
 		}
 
 			.image.left img, .image.right img {
@@ -919,13 +923,13 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #cee8d8;
+						color: #ffcc00;
 						display: inline-block;
 						text-decoration: none;
 					}
 
 						#header nav > ul > li a:hover {
-							color: #ffffff;
+							color: #cc0000;
 						}
 
 					#header nav > ul > li:first-child {
@@ -1089,3 +1093,5 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
+
+/* my custom classes */
